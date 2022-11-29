@@ -1,0 +1,184 @@
+:root {
+  /* IRIS */
+  --PrimaryBrand: #4d5ae5;
+
+  /* Navy blue */
+  --Dark: #2e2f42;
+
+  /* GREEN */
+  --Success: #31d0aa;
+
+  /* SLATE */
+  --Text: #434455;
+
+  /* LIGHT SLATE */
+  --SubtleText: #8e8f99;
+
+  /* Сornflower */
+  --Accent: #e7e9fc;
+
+  /* CLOUD */
+  --Light: #f4f4fd;
+
+  --White: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;  
+  color: var(--Dark);
+  background-color: var(--White);
+}
+
+.primary-title {
+  font-size: 56px;
+  line-height: 1.071;
+  font-weight: 600;
+}
+
+.secondary-title {
+  font-size: 36px;
+  line-height: 1.111;
+  font-weight: 600;
+}
+
+.third-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* HEADER */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--Dark);  
+  text-transform: uppercase;
+  line-height: 1.333;
+  font-weight: 800;
+}
+
+.logo-web {
+  color: var(--PrimaryBrand);
+}
+
+.nav-menu a {
+  color: var(--Dark);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.nav-menu a:hover {
+  color: var(--Text);
+}
+
+.nav-menu a:focus {
+  color: var(--Text);
+}
+
+.nav-menu a:active {
+  color: var(--PrimaryBrand);
+}
+
+.contacts a:hover {
+  color: var(--PrimaryBrand);
+}
+
+.contacts a:focus {
+  color: var(--PrimaryBrand);
+}
+
+.text {
+  color: var(--Text);
+  line-height: 1.5;  
+}
+
+/* MAIN */
+.service {
+  background-color: var(--Dark);
+  color: var(--White);
+}
+
+.service-button {
+  color: var(--White);
+  background-color: var(--PrimaryBrand);
+  font-size: 16px;
+  line-height: 1.187;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.service-button:hover {
+  background-color: var(--PrimaryBrand);
+}
+
+.service-button:focus {
+  background-color: var(--PrimaryBrand);
+}
+
+.service-button:active {
+  background-color: #404bbf;
+}
+
+/* Advanteges */
+
+.advanteges .secondary-title {
+  display: none;
+}
+
+.footer {
+  background-color: var(--Dark);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;  
+  line-height: 1.333;
+  font-weight: 800;
+}
+
+.logo-studio {
+  color: var(--White);
+}
+
+.footer-description {
+  color: var(--Accent);  
+  line-height: 1.5;
+}
+
+/* PORTFOLIO CSS */
+
+.filter .primary-title {
+  display: none;
+}
+
+.filter-button {
+  background-color: var(--Accent);
+  color: var(--PrimaryBrand);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.filter-button:hover {
+  background-color: var(--PrimaryBrand);
+  color: var(--White);
+}
+
+.filter-button:focus {
+  background-color: var(--PrimaryBrand);
+  color: var(--White);
+}
+
+
+
